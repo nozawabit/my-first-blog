@@ -1,0 +1,14 @@
+def visitor(name,number):
+   print('Hi ' + name + '!')
+   if number == 1:
+       print('You are first')
+   elif number == 2:
+       print('You are second')
+   elif number == 3:
+       print('You are third ')
+   else:
+   	   print('You are Late!')
+
+visitor('Hiroko',1)
+visitor('Mari',2)
+visitor('Miki',3)
